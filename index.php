@@ -1,6 +1,5 @@
 <?php
 
-require 'kirby/config/helpers.php';
-require 'kirby/bootstrap.php';
+require __DIR__ . '/kirby/bootstrap.php';
 
 echo (new Kirby)->render();

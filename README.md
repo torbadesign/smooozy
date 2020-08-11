@@ -1,39 +1,82 @@
-# Kirby Portfolio Theme
+# Kirby Starterkit
 
-![Kirby Portfolio Theme](https://themes.lemmonjuice.com/portfolio--anim@1440w.webp)
+Kirby is a file-based CMS.
+Easy to setup. Easy to use. Flexible as hell.
 
-Lemmon Portfolio is a free Kirby CMS theme. Minimalistic look with focus on your content.
-Built with [Abrusco CSS](https://abrusco.com/) on top of [Kirby CMS](https://getkirby.com/).
-This template is free, customizable, mobile-first, and responsive.
+## Trial
+
+You can try Kirby on your local machine or on a test
+server as long as you need to make sure it is the right
+tool for your next project.
+
+## Buy a license
+
+You can purchase your Kirby license at
+<https://getkirby.com/buy>
+
+A Kirby license is valid for a single domain. You can find
+Kirby's license agreement here: <https://getkirby.com/license>
+
+## The Starterkit
+
+Kirby's Starterkit comes with a small demo website and a fully
+configured panel. Feel free to modify it and play with it as
+much as you like.
+
+## The Panel
+
+You can find the login for Kirby's admin interface at
+http://yourdomain.com/panel. You will be guided through the signup
+process for your first user, when you visit the panel
+for the first time.
 
 ## Installation
 
-### Composer
+Kirby does not require a database, which makes it very easy to
+install. Just copy Kirby's files to your server and visit the
+URL for your website in the browser.
 
-```
-composer create-project lemmon/kirby-portfolio
-```
+**Please check if the invisible .htaccess file has been
+copied to your server correctly**
 
-### Git
+### Requirements
 
-```
-git clone git@github.com:lemmon/kirby-portfolio-theme.git
-cd kirby-portfolio-theme
-composer install
-```
+Kirby runs on PHP 7.1+, Apache or Nginx.
 
-### ZIP Archive
+### Download
 
-Download the [zip archive](https://github.com/lemmon/kirby-portfolio-theme/archive/master.zip),
-extract it, and run `composer install` within the project root directory.
+You can download the latest version of the Starterkit
+from https://download.getkirby.com
 
-## Troubleshooting
+### With Git
 
-Sometimes you might face a folder permissions issue. Try running `bin/permissions` to resolve this.
+If you are familiar with Git, you can clone Kirby's
+Starterkit repository from Github.
 
-You can read more about the Kirby CMS in their official [documentation](https://getkirby.com/docs).
+    git clone https://github.com/getkirby/starterkit.git
 
-## License
+## Documentation
 
-This theme is released under the MIT license. For Kirby license see the [License](https://getkirby.com/license) section
-on [Kirby CMS](https://getkirby.com/) official website.
+<https://getkirby.com/docs>
+
+## Issues
+
+If you have a Github account, please report issues
+directly on Github: <https://github.com/getkirby/kirby/issues>
+
+Otherwise you can use Kirby's forum: https://forum.getkirby.com
+or send us an email: <support@getkirby.com>
+
+## Ideas & Feature Requests
+
+If you have ideas for new features, please submit a ticket in our ideas repository:
+<https://github.com/getkirby/kirby/ideas>
+
+## Support
+
+<https://getkirby.com/support>
+
+## Copyright
+
+© 2009-2019 Bastian Allgeier (Bastian Allgeier GmbH)
+<https://getkirby.com>

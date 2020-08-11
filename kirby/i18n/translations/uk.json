@@ -1,0 +1,461 @@
+{
+  "add": "\u0414\u043e\u0431\u0430\u0432\u0438\u0442\u044c",
+  "avatar": "\u0410\u0432\u0430\u0442\u0430\u0440 (\u0444\u043e\u0442\u043e)",
+  "back": "Назад",
+  "cancel": "\u041e\u0442\u043c\u0435\u043d\u0438\u0442\u044c",
+  "change": "\u0418\u0437\u043c\u0435\u043d\u0438\u0442\u044c",
+  "close": "\u0417\u0430\u043a\u0440\u044b\u0442\u044c",
+  "confirm": "Зберегти",
+  "copy": "Копіювати",
+  "create": "Створити",
+
+  "date": "Дата",
+  "date.select": "Оберіть дату",
+
+  "day": "День",
+  "days.fri": "\u041f\u0442",
+  "days.mon": "\u041f\u043d",
+  "days.sat": "\u0421\u0431",
+  "days.sun": "\u0412\u0441",
+  "days.thu": "\u0427\u0442",
+  "days.tue": "\u0412\u0442",
+  "days.wed": "\u0421\u0440",
+
+  "delete": "\u0423\u0434\u0430\u043b\u0438\u0442\u044c",
+  "dimensions": "Розміри",
+  "discard": "\u0421\u0431\u0440\u043e\u0441",
+  "download": "Завантажити",
+  "duplicate": "Дублювати",
+  "edit": "\u041d\u0430\u0441\u0442\u0440\u043e\u0438\u0442\u044c",
+
+  "dialog.files.empty": "Немає файлів для вибору",
+  "dialog.pages.empty": "Немає сторінок для вибору",
+  "dialog.users.empty": "Немає користувачів для вибору",
+
+  "email": "Ел. пошта",
+  "email.placeholder": "poshta@domen.com",
+
+  "error.access.login": "Невірний логі",
+  "error.access.panel": "У вас немає прав доступу до панелі",
+  "error.access.view": "У вас немає прав доступу до цієї частини панелі",
+
+  "error.avatar.create.fail": "Не вдалось завантажити фото профіля",
+  "error.avatar.delete.fail": "\u0410\u0432\u0430\u0442\u0430\u0440 (\u0444\u043e\u0442\u043e) \u043a \u0430\u043a\u043a\u0430\u0443\u043d\u0442\u0443 \u043d\u0435 \u043c\u043e\u0436\u0435\u0442 \u0431\u044b\u0442\u044c \u0443\u0434\u0430\u043b\u0435\u043d",
+  "error.avatar.dimensions.invalid":
+    "Будь ласка, зробіть щоб ширина і висота зображення була менше 3000 пікселів",
+  "error.avatar.mime.forbidden":
+    "Зображенням профіля має бути JPEG або PNG",
+
+  "error.blueprint.notFound": "Не вдалось завантажити blueprint \"{name}\"",
+
+  "error.email.preset.notFound": "Шаблон ел. пошти \"{name}\" не знайдено",
+
+  "error.field.converter.invalid": "Невірний конвертер \"{converter}\"",
+
+  "error.file.changeName.empty": "Назва не може бути пустою",
+  "error.file.changeName.permission":
+    "У вас немає прав змінити назву \"{filename}\"",
+  "error.file.duplicate": "Файл з іменем \"{filename}\" вже існує",
+  "error.file.extension.forbidden":
+    "Розширення файлу \"{extension}\" недозволено",
+  "error.file.extension.missing":
+    "Файлу \"{filename}\" не вистачає розширення",
+  "error.file.mime.differs":
+    "Завантажений файл має бути того ж mime типу: \"{mime}\"",
+  "error.file.mime.forbidden": "Тип медіа \"{mime}\" не допустимий",
+  "error.file.mime.missing":
+    "Не вдалось визначити тип медіа для файлу \"{filename}\"",
+  "error.file.name.missing": "Назва файлу не може бути пустою",
+  "error.file.notFound": "\u0424\u0430\u0439\u043b \u043d\u0435 \u043d\u0430\u0439\u0434\u0435\u043d",
+  "error.file.type.forbidden": "У вас недостатньо прав, щоб завантажувати файли {type}",
+  "error.file.undefined": "\u0424\u0430\u0439\u043b \u043d\u0435 \u043d\u0430\u0439\u0434\u0435\u043d",
+
+  "error.form.incomplete": "Будь ласка, виправте всі помилки у формі",
+  "error.form.notSaved": "Форма не може бути збережена",
+
+  "error.language.code": "Будь ласка, напишіть вірний код мови",
+  "error.language.duplicate": "Мова вже існує",
+  "error.language.name": "Будь ласка, напишіть вірну назву мови",
+
+  "error.license.format": "Будь ласка, напишіть вірний ліцензійний код",
+  "error.license.email": "Будь ласка, напишіть вірну адресу ел. пошти",
+  "error.license.verification": "Ліцензія не підтверждена",
+
+  "error.page.changeSlug.permission":
+    "\u0412\u044b \u043d\u0435 \u043c\u043e\u0436\u0435\u0442\u0435 \u0438\u0437\u043c\u0435\u043d\u0438\u0442\u044c URL \u044d\u0442\u043e\u0439 \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u044b",
+  "error.page.changeStatus.incomplete":
+    "На сторінці є помилки тому її немолжливо оприлюднити",
+  "error.page.changeStatus.permission":
+    "Неможливо змінити статус для цієї сторінки",
+  "error.page.changeStatus.toDraft.invalid":
+    "Неможливо конвертувати в чорновик сторінку \"{slug}\"",
+  "error.page.changeTemplate.invalid":
+    "Неможливо змінити шаблон сторінки \"{slug}\"",
+  "error.page.changeTemplate.permission":
+    "У вас недостатньо прав, щоб змінити шаблон для \"{slug}\"",
+  "error.page.changeTitle.empty": "Назва не може бути пустою,
+  "error.page.changeTitle.permission":
+    "У вас недостатньо прав, щоб змінити назву \"{slug}\"",
+  "error.page.create.permission": "У вас недостатньо прав для створення \"{slug}\"",
+  "error.page.delete": "Неможливо видалити сторінку \"{slug}\"",
+  "error.page.delete.confirm": "Напишіть назву сторінки для підтвердження",
+  "error.page.delete.hasChildren":
+    "У сторінки є внутрішні сторінки, тому її неможливо видалити",
+  "error.page.delete.permission": "У вас недостатньо прав, щоб видалити \"{slug}\"",
+  "error.page.draft.duplicate":
+    "Чорновик сторінки з апендиксом URL \"{slug}\" вже існує",
+  "error.page.duplicate":
+    "Сторінка з апендиксом URL \"{slug}\" вже існує",
+  "error.page.duplicate.permission": "У вас недостатньо прав для дублювання \"{slug}\"",
+  "error.page.notFound": "\u0421\u0442\u0440\u0430\u043d\u0438\u0446\u0430 \u043d\u0435 \u043d\u0430\u0439\u0434\u0435\u043d\u0430",
+  "error.page.num.invalid":
+    "Будь ласка, напишіть вірне число сортування. Число не може бути від'ємним.",
+  "error.page.slug.invalid": "Будь ласка, напишіть вірний префікс URL",
+  "error.page.sort.permission": "Неможливо сортувати сторінку \"{slug}\"",
+  "error.page.status.invalid": "Будь ласка, встановіть вірний статус сторінки",
+  "error.page.undefined": "\u0421\u0442\u0440\u0430\u043d\u0438\u0446\u0430 \u043d\u0435 \u043d\u0430\u0439\u0434\u0435\u043d\u0430",
+  "error.page.update.permission": "У вас недостатньо прав для оновлення \"{slug}\"",
+
+  "error.section.files.max.plural":
+    "Неможна додати більше ніж {max} файлів у секції \"{section}\"",
+  "error.section.files.max.singular":
+    "Можна додати не більше 1 файлу в секції \"{section}\"",
+  "error.section.files.min.plural":
+    "Секція \"{section}\" потребує хоча б {min} файлів",
+  "error.section.files.min.singular":
+    "Секція \"{section}\" потребує хоча б 1 файл",
+
+  "error.section.pages.max.plural":
+    "Можна додати не більше {max} сторінок в секції \"{section}\"",
+  "error.section.pages.max.singular":
+    "Неможливо додати більше ніж 1 сторінку в секції \"{section}\"",
+  "error.section.pages.min.plural":
+    "Секція \"{section}\" потребує хоча б {min} сторінок",
+  "error.section.pages.min.singular":
+    "Секція \"{section}\" потребує хоча б однієї сторінки",
+
+  "error.section.notLoaded": "Секція \"{name}\" не може бути завантажена",
+  "error.section.type.invalid": "Тип секції {type} невірний",
+
+  "error.site.changeTitle.permission":
+    "У вас недостатньо прав, щоб змінити назву сайту",
+  "error.site.update.permission": "У вас недостатньо прав, щоб оновити сайт",
+
+  "error.template.default.notFound": "Немає шаблону за замовчуванням",
+
+  "error.user.changeEmail.permission":
+    "У вас недостатньо прав, щоб змінити ел. пошту користувача \"{name}\"",
+  "error.user.changeLanguage.permission":
+    "У вас недостатньо прав, щоб змінити мову для користувача \"{name}\"",
+  "error.user.changeName.permission":
+    "У вас недостатньо прав, щоб змінити ім'я користувача \"{name}\"",
+  "error.user.changePassword.permission":
+    "У вас недостатньо прав, щоб змінити пароль для користувача \"{name}\"",
+  "error.user.changeУ вас недостатньо прав, щобRole.lastAdmin":
+    "Роль єдиного адміністратора неможливо змінити",
+  "error.user.changeRole.permission":
+    "У вас недостатньо прав, щоб змінити роль для користувача \"{name}\"",
+  "error.user.create.permission": "У вас недостатньо прав, щоб створити цього користувача",
+  "error.user.delete": "\u0410\u043a\u043a\u0430\u0443\u043d\u0442 \u043d\u0435 \u043c\u043e\u0436\u0435\u0442 \u0431\u044b\u0442\u044c \u0443\u0434\u0430\u043b\u0435\u043d",
+  "error.user.delete.lastAdmin": "\u0412\u044b \u043d\u0435 \u043c\u043e\u0436\u0435\u0442\u0435 \u0443\u0434\u0430\u043b\u0438\u0442\u044c \u0435\u0434\u0438\u043d\u0441\u0442\u0432\u0435\u043d\u043d\u043e\u0433\u043e \u0430\u0434\u043c\u0438\u043d\u0438\u0441\u0442\u0440\u0430\u0442\u043e\u0440\u0430",
+  "error.user.delete.lastUser": "Неможна видалити єдиного користувача",
+  "error.user.delete.permission":
+    "У вас немає прав видалити користувача \"{name}\"",
+  "error.user.duplicate":
+    "Користувач з ел. поштою \"{email}\" вже існує",
+  "error.user.email.invalid": "Будь ласка, напишіть вірну адресу ел. пошти",
+  "error.user.language.invalid": "напишіть вірну мову",
+  "error.user.notFound": "\u0410\u043a\u043a\u0430\u0443\u043d\u0442 \u043d\u0435 \u043d\u0430\u0439\u0434\u0435\u043d",
+  "error.user.password.invalid":
+    "Будь ласка, напишіть вірний пароль. Він має бути мінімум із 8 символів.",
+  "error.user.password.notSame": "\u041f\u043e\u0436\u0430\u043b\u0443\u0439\u0441\u0442\u0430, \u043f\u043e\u0434\u0442\u0432\u0435\u0440\u0434\u0438\u0442\u0435 \u043f\u0430\u0440\u043e\u043b\u044c",
+  "error.user.password.undefined": "У користувача немає пароля",
+  "error.user.role.invalid": "напишіть вірну роль",
+  "error.user.update.permission":
+    "У вас немає прав оновлювати користувача \"{name}\"",
+
+  "error.validation.accepted": "Будь ласка, підтвердіть",
+  "error.validation.alpha": "Будь ласка, напишіть тільки літери a-z",
+  "error.validation.alphanum":
+    "Будь ласка, напишіть тільки літери a-z або числа 0-9",
+  "error.validation.between":
+    "Будь ласка, напишіть значение от \"{min}\" до \"{max}\"",
+  "error.validation.boolean": "Будь ласка, підтвердіть або скасуйте",
+  "error.validation.contains":
+    "Будь ласка, напишіть значення, яке містить \"{needle}\"",
+  "error.validation.date": "Будь ласка, напишіть правильную дату",
+  "error.validation.date.after": "Будь ласка, напишіть дату после {date}",
+  "error.validation.date.before": "Будь ласка, напишіть дату до {date}",
+  "error.validation.date.between": "Будь ласка, напишіть дату між {min} та {max}",
+  "error.validation.denied": "Будь ласка скасуйте",
+  "error.validation.different": "Значення не може бути \"{other}\"",
+  "error.validation.email": "Будь ласка, напишіть вірну адресу ел. пошти",
+  "error.validation.endswith": "Значення має закінчуватися з \"{end}\"",
+  "error.validation.filename": "Будь ласка, напишіть правильну назву файлу",
+  "error.validation.in": "Будь ласка, напишіть одне з наступних: ({in})",
+  "error.validation.integer": "Будь ласка, напишіть правильне ціле число",
+  "error.validation.ip": "Будь ласка, напишіть правильну IP адресу",
+  "error.validation.less": "Будь ласка, напишіть значення менше ніж {max}",
+  "error.validation.match": "Значення не відповідає очікуваному шаблону",
+  "error.validation.max": "Будь ласка, напишіть значення рівне або більше ніж {max}",
+  "error.validation.maxlength":
+    "Будь ласка, напишіть значення коротше (макс. {max} символів)",
+  "error.validation.maxwords": "Будь ласка, напишіть не більше {max} слів ",
+  "error.validation.min": "Будь ласка, напишіть значення рівне або більше ніж {min}",
+  "error.validation.minlength":
+    "Будь ласка, напишіть значення довше (мін. {min} символів)",
+  "error.validation.minwords": "Будь ласка, напишіть хоча б {min} слів",
+  "error.validation.more": "Будь ласка, напишіть значення більше, ніж {min}",
+  "error.validation.notcontains":
+    "Будь ласка, напишіть значення, яке не містить \"{needle}\"",
+  "error.validation.notin":
+    "Будь ласка, не пишіть одне з:  ({notIn})",
+  "error.validation.option": "Будь ласка, оберіть вірну опцію ",
+  "error.validation.num": "Будь ласка, напишіть вірний номер",
+  "error.validation.required": "Будь ласка, напишіть що-небудь",
+  "error.validation.same": "Будь ласка, напишіть \"{other}\"",
+  "error.validation.size": "Значення розміру має бути \"{size}\"",
+  "error.validation.startswith": "Значення має починатися з \"{start}\"",
+  "error.validation.time": "Будь ласка, напишіть вірну дату",
+  "error.validation.url": "Будь ласка, напишіть вірний URL",
+
+  "field.files.empty": "Ще не обрані файли",
+  "field.pages.empty": "Ще не обрані сторінки",
+  "field.structure.delete.confirm": "Ви впевнені, що хочете видалити цей запис?",
+  "field.structure.empty": "Ще немає записів",
+  "field.users.empty": "Ще немає користувачів",
+
+  "file.delete.confirm":
+    "Ви впевнені, що хочете видалити файл?",
+
+  "files": "Файли",
+  "files.empty": "Ще немає файлів",
+
+  "hour": "Година",
+  "insert": "\u0412\u0441\u0442\u0430\u0432\u0438\u0442\u044c",
+  "install": "Інсталювати",
+
+  "installation": "Інсталяція",
+  "installation.completed": "Панель інстальована",
+  "installation.disabled": "Інсталювання панелі за замовчуванням відключено на загальнодоступних серверах. Будь ласка запустіть інсталяцію на локальному сервері або увікніть таку можливість за допомогою опції <code>panel.install</code>",
+  "installation.issues.accounts":
+    "Каталог <code>/site/accounts</code> не існує або не має прав на запис",
+  "installation.issues.content":
+    "Каталог <code>/content</code> не існує або не має прав на запис",
+  "installation.issues.curl": "Розширення <code>CURL</code> необхідно",
+  "installation.issues.headline": "Не вдалось встановити панель",
+  "installation.issues.mbstring":
+    "Розширення <code>MB String</code> необходимо",
+  "installation.issues.media":
+    "Каталог <code>/media</code> не існує або немає прав на запис",
+  "installation.issues.php": "Переконайтесь, що використовується <code>PHP 7+</code>",
+  "installation.issues.server":
+    "Kirby требует <code>Apache</code>, <code>Nginx</code> или <code>Caddy</code> ",
+  "installation.issues.sessions": "Каталог <code>/site/sessions</code> не існує або немає прав на запис",
+
+  "language": "\u042f\u0437\u044b\u043a",
+  "language.code": "Код",
+  "language.convert": "Встановити за замовчуванням",
+  "language.convert.confirm":
+    "<p>Ви точно бажаєте конвертувати <strong>{name}</strong> в основну мову? Цього не можна буде скасувати.</p><p>Якщо <strong>{name}</strong> має неперекладений контент, то більше не буде вірного каскаду і частини вашого сайту можуть бути пустими.</p>",
+  "language.create": "Додати нову мову",
+  "language.delete.confirm":
+    "Ви точно хочете видалити <strong>{name}</strong> мову, включно з усіма перекладами? Це неможливо буде повернути.",
+  "language.deleted": "Мова видалена",
+  "language.direction": "Напрям читання",
+  "language.direction.ltr": "Зліва направо",
+  "language.direction.rtl": "Зправа наліво",
+  "language.locale": "PHP locale string",
+  "language.locale.warning": "Ви використовуєте кастомну локалізацію. Будь ласка змініть її у файлі мови в /site/languages",
+  "language.name": "Назва",
+  "language.updated": "Мову оновлено",
+
+  "languages": "Мови",
+  "languages.default": "Основна мова",
+  "languages.empty": "Ще немає мов",
+  "languages.secondary": "Додаткові мови",
+  "languages.secondary.empty": "Ще немає додаткових мов",
+
+  "license": "\u041b\u0438\u0446\u0435\u043d\u0437\u0438\u044f Kirby",
+  "license.buy": "Придбати ліцензію",
+  "license.register": "Зареєструвати",
+  "license.register.help":
+    "Після придбання ви отримали на ел. пошту код ліцензії. Будь ласка скопіюйте і вставте сюди щоб зареєструвати.",
+  "license.register.label": "Будь ласка вставте код ліцензії",
+  "license.register.success": "Дякуємо за підтримку Kirby",
+  "license.unregistered": "Це незареєстрована версія Kirby",
+
+  "link": "\u0421\u0441\u044b\u043b\u043a\u0430",
+  "link.text": "\u0422\u0435\u043a\u0441\u0442 \u0441\u0441\u044b\u043b\u043a\u0438",
+
+  "loading": "Завантаження",
+
+  "lock.unsaved": "Незбережені зміни",
+  "lock.isLocked": "Незбережені зміни користувача <strong>{email}</strong>",
+  "lock.file.isLocked": "На даний момент цей файл редагує {email}, тому його неможливо змінити.",
+  "lock.page.isLocked": "На даний момент цю сторінку редагує {email}, тому його неможливо змінити.",
+  "lock.unlock": "Розблокувати",
+  "lock.isUnlocked": "Ваші незбережені зміни були перезаписані іншим користувачем. Ви можете завантажити ваші зміни та об'єднати їх вручну.",
+
+  "login": "Увійти",
+  "login.remember": "Зберігати вхід активним",
+
+  "logout": "Вийти",
+
+  "menu": "Меню",
+  "meridiem": "До полудня / Післе полудня",
+  "mime": "Тип медіа",
+  "minutes": "Хвилини",
+
+  "month": "Місяць",
+  "months.april": "\u0410\u043f\u0440\u0435\u043b\u044c",
+  "months.august": "\u0410\u0432\u0433\u0443\u0441\u0442",
+  "months.december": "\u0414\u0435\u043a\u0430\u0431\u0440\u044c",
+  "months.february": "\u0424\u0435\u0432\u0440\u0430\u043b\u044c",
+  "months.january": "\u042f\u043d\u0432\u0430\u0440\u044c",
+  "months.july": "\u0418\u044e\u043b\u044c",
+  "months.june": "\u0418\u044e\u043d\u044c",
+  "months.march": "\u041c\u0430\u0440\u0442",
+  "months.may": "\u041c\u0430\u0439",
+  "months.november": "\u041d\u043e\u044f\u0431\u0440\u044c",
+  "months.october": "\u041e\u043a\u0442\u044f\u0431\u0440\u044c",
+  "months.september": "\u0421\u0435\u043d\u0442\u044f\u0431\u0440\u044c",
+
+  "more": "Детальніше",
+  "name": "Назва",
+  "next": "Далі",
+  "off": "вимкнено",
+  "on": "увімкнено",
+  "open": "Відкрити",
+  "options": "Опції",
+
+  "orientation": "Орієнтація",
+  "orientation.landscape": "Горизонтальна",
+  "orientation.portrait": "Портретна",
+  "orientation.square": "Квадрат",
+
+  "page.changeSlug": "\u0418\u0437\u043c\u0435\u043d\u0438\u0442\u044c \u0441\u0441\u044b\u043b\u043a\u0443 (\u0427\u041f\u0423)",
+  "page.changeSlug.fromTitle": "Створити з назви",
+  "page.changeStatus": "Змінити статус",
+  "page.changeStatus.position": "Будь ласка, оберіть позицію",
+  "page.changeStatus.select": "Обрати новий статус",
+  "page.changeTemplate": "Змінити шаблон",
+  "page.delete.confirm":
+    "Ви впевнені, що хочете видалити цю сторінку?",
+  "page.delete.confirm.subpages":
+    "<strong>В цієї сторінки є внутрішні сторіінки</strong>.<br>Усі внутрішні сторінки теж будуть видалені.",
+  "page.delete.confirm.title": "Напишіть назву сторінки, щоб підтвердити",
+  "page.draft.create": "Створити чорновик",
+  "page.duplicate.appendix": "Скопировать",
+  "page.duplicate.files": "Копіювати файли",
+  "page.duplicate.pages": "Копіювати сторінки",
+  "page.status": "Статус",
+  "page.status.draft": "Чорновик",
+  "page.status.draft.description":
+    "Сторінка в режимі чорновика і видима лише для авторизованих редакторів",
+  "page.status.listed": "Оприлюднена",
+  "page.status.listed.description": "Сторінка доступна для усіх відвідувачів",
+  "page.status.unlisted": "Прихована",
+  "page.status.unlisted.description": "Сторінка доступна лише по URL",
+
+  "pages": "Сторінки",
+  "pages.empty": "Поки ще немає сторінок",
+  "pages.status.draft": "Чорновики",
+  "pages.status.listed": "Оприлюднено",
+  "pages.status.unlisted": "Прихована",
+
+  "password": "\u041f\u0430\u0440\u043e\u043b\u044c",
+  "pixel": "Піксель",
+  "prev": "Попередній",
+  "remove": "Видалити",
+  "rename": "Перейменувати",
+  "replace": "\u0417\u0430\u043c\u0435\u043d\u0438\u0442\u044c",
+  "retry": "\u041f\u043e\u0432\u0442\u043e\u0440\u0438\u0442\u044c",
+  "revert": "\u0421\u0431\u0440\u043e\u0441",
+
+  "role": "\u0420\u043e\u043b\u044c",
+  "role.admin.description": "Admin має всі права",
+  "role.admin.title": "Admin",
+  "role.all": "Всі",
+  "role.empty": "Немає користувача з такою роллю",
+  "role.description.placeholder": "Без опису",
+  "role.nobody.description": "Ця роль застосовується якщо в користувача немає жодних прав",
+  "role.nobody.title": "Ніхто",
+
+  "save": "\u0421\u043e\u0445\u0440\u0430\u043d\u0438\u0442\u044c",
+  "search": "Пошук",
+  "select": "Обрати",
+  "settings": "Налаштування",
+  "size": "Розмір",
+  "slug": "Зрозуміле посилання (ЧПУ)",
+  "sort": "Сортувати",
+  "title": "Назва",
+  "template": "\u0428\u0430\u0431\u043b\u043e\u043d",
+  "today": "Сьогодні",
+
+  "toolbar.button.code": "Код",
+  "toolbar.button.bold": "\u0416\u0438\u0440\u043d\u044b\u0439 \u0448\u0440\u0438\u0444\u0442",
+  "toolbar.button.email": "\u042d\u043b.\u043f\u043e\u0447\u0442\u0430",
+  "toolbar.button.headings": "Заголовки",
+  "toolbar.button.heading.1": "Заголовок 1",
+  "toolbar.button.heading.2": "Заголовок 2",
+  "toolbar.button.heading.3": "Заголовок 3",
+  "toolbar.button.italic": "\u041d\u0430\u043a\u043b\u043e\u043d\u043d\u044b\u0439 \u0448\u0440\u0438\u0444\u0442",
+  "toolbar.button.file": "Файл",
+  "toolbar.button.file.select": "Обрати файл",
+  "toolbar.button.file.upload": "Завантажити файл",
+  "toolbar.button.link": "\u0421\u0441\u044b\u043b\u043a\u0430",
+  "toolbar.button.ol": "Нумерований список",
+  "toolbar.button.ul": "Маркований список",
+
+  "translation.author": "Команда Кірбі",
+  "translation.direction": "ltr",
+  "translation.name": "Українська (Ukrainian)",
+
+  "upload": "Закачать",
+  "upload.error.cantMove": "Завантажений файл не може бути переміщеним",
+  "upload.error.cantWrite": "Не вдалось записати файл на диск",
+  "upload.error.default": "Не вдалось завантажити файл",
+  "upload.error.extension": "Завантаження файлу не вдалось через розширення",
+  "upload.error.formSize": "Завантажений файл більше ніж MAX_FILE_SIZE налаштування в формі",
+  "upload.error.iniPostSize": "The uploaded file exceeds the post_max_size directive in php.ini",
+  "upload.error.iniSize": "Завантажений файл більше ніж upload_max_filesize налаштування в php.ini",
+  "upload.error.noFile": "Файл не завантажився",
+  "upload.error.noFiles": "Файли не були завантажені",
+  "upload.error.partial": "Файл завантажений тільки частково",
+  "upload.error.tmpDir": "Не вистачає тимчасової папки",
+  "upload.errors": "Помилка",
+  "upload.progress": "Завантажується...",
+
+  "url": "Url",
+  "url.placeholder": "https://example.com",
+
+  "user": "Користувач",
+  "user.blueprint":
+    "Ви можете визначити нові секції та поля форми для цієї ролі користувача в <strong>/site/blueprints/users/{role}.yml</strong>",
+  "user.changeEmail": "Змінити ел. пошту",
+  "user.changeLanguage": "Змінити мову",
+  "user.changeName": "Перейменувати цього користувача",
+  "user.changePassword": "Змінити пароль",
+  "user.changePassword.new": "Новий пароль",
+  "user.changePassword.new.confirm": "Підтвердити новий пароль",
+  "user.changeRole": "Змінити роль",
+  "user.changeRole.select": "Обрати нову роль",
+  "user.create": "Додати нового користувача",
+  "user.delete": "Видалити цього користувача",
+  "user.delete.confirm":
+    "\u0412\u044b \u0434\u0435\u0439\u0441\u0442\u0432\u0438\u0442\u0435\u043b\u044c\u043d\u043e \u0445\u043e\u0442\u0438\u0442\u0435 \u0443\u0434\u0430\u043b\u0438\u0442\u044c \u0430\u043a\u043a\u0430\u0443\u043d\u0442?",
+
+  "users": "Користувачі",
+
+  "version": "\u0412\u0435\u0440\u0441\u0438\u044f Kirby",
+
+  "view.account": "\u0412\u0430\u0448 \u0430\u043a\u043a\u0430\u0443\u043d\u0442",
+  "view.installation": "\u0423\u0441\u0442\u0430\u043d\u043e\u0432\u043a\u0430",
+  "view.settings": "Налаштування",
+  "view.site": "Сайт",
+  "view.users": "\u041f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u0438",
+
+  "welcome": "Ласкаво просимо",
+  "year": "Рік"
+}
